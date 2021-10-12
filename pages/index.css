@@ -1,0 +1,65 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/Inter/inter.css);
+
+/* body page */
+
+@import url(../blocks/page/page.css);
+
+/* section header */
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__place-lang-link/header__place-lang-link.css);
+
+/* main content */
+
+@import url(../blocks/content/content.css);
+
+/* section lead */
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+
+/* section intro */
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list/_span-bold/intro__list_span-bold.css);
+
+/* section photo-grid */
+
+@import url(../blocks/prhoto-grid/photo-grid.css);
+@import url(../blocks/prhoto-grid/__item/photo-grid__item.css);
+
+/* section places */
+
+@import url(../blocks/places/places.css);
+
+/* section place */
+
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+
+/* section khan */
+
+@import url(../blocks/khan/khan.css);
+
+/* section kaufman */
+
+@import url(../blocks/kaufman/kaufman.css);
+
+/* section resources */
+
+@import url(../blocks/resources/resources.css);
+/* section footer */
+
+@import url(../blocks/footer/footer.css);

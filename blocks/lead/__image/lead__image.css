@@ -1,0 +1,7 @@
+.lead__image {
+  max-width: 980px;
+  height: 580px;
+  align-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,25 @@
+.cover {
+  padding: 92px 48px 0;
+  max-width: 1184px;
+  width: 95%;
+  min-height: 740px;
+  /*height: 62.5vw;*/
+  background-image: url("../../images/to-baikal-cover.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-origin: content-box;
+  position: relative;
+
+}
+
+.cover:hover:before {
+  height: 100%;
+  width: 100%;
+  content: '';
+  display: block;
+  opacity: 0.5;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

@@ -1,0 +1,9 @@
+.header {
+  min-width: 288px;
+  max-width: 1184px;
+  min-height: 52px;
+  margin: 28px auto 48px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
