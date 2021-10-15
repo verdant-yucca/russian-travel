@@ -16,7 +16,7 @@
     </div>
   </header>
 
-  <main class="content">
+   <main class="content">
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
 
@@ -95,10 +95,10 @@
       <div class="place">
         <h2 class="place__title">Куршская коса</h2>
         <img class="place__image" src="./images/curonian-arc.jpg" alt="Куршская_коса">
-        <p>
-          URL
+        <div class="place__website">
+          <p class="">URL</p> 
           <a href="http://park-kosa.ru" target="_blank" rel="noopener noreferrer">park-kosa.ru</a>
-        </p>
+        </div>
 
         <p class="place__paragraph">
           Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
@@ -176,7 +176,7 @@
 
       <div class="place">
         <h2 class="place__title">Кареля</h2>
-        <img class="place__image" src="./images/karelia.jpg alt="Карелия">
+        <img class="place__image" src="./images/karelia.jpg" alt="Карелия">
         <p>
           URL
           <a href="http://park-kosa.ru" target="_blank" rel="noopener noreferrer">http://vodlozero.ru/</a>
@@ -194,13 +194,24 @@
     </section>
 
     <section class="cover">
+      <h2 class="cover__title">До Байкала «на собаках»</h2>
+      <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+
 
     </section>
 
-  </main>
+  </main> 
 
   <footer class="footer">
+  <div class="footer__place-links">
+    <a class="footer__link" href="">Карты</a>
+    <a class="footer__link" href="">Погода</a>
+    <a class="footer__link" href="">Расписание</a>
+    <a class="footer__link" href="">Календарь</a>
+    <a class="footer__link" href="">Путешествия</a>
+  </div>
 
+  <p class="footer__copyright">&copy;2021 Давыденко Роман</p>
   </footer>
 </body>
 </html>

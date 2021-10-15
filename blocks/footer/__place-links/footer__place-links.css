@@ -1,0 +1,5 @@
+.footer__place-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
