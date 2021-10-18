@@ -1,7 +1,4 @@
 .lead__image {
-  width: 928px;
-  height: 580px;
-  align-content: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 100%;
+  object-fit: cover;
 }

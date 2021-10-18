@@ -1,6 +1,21 @@
 .intro {
-  max-width: 690px;
+  width: 690px;
+  margin-left: 4.5%;
   display: flex;
   flex-direction: column;
   align-self: start;
+}
+
+@media screen and (max-width: 500px) {
+  .intro {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 770px) {
+  .intro {
+    width: 93.75%;
+    margin-left: 3.125%;
+  }
 }

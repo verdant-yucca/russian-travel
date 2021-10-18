@@ -1,12 +1,12 @@
 .cover__title {
-    margin: 195px 0 32px;
-    width: 560px;
-    align-self: center;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 76px;
-    text-align: center;
-    color: #fff;
-
+  margin-bottom: 32px;
+  width: 560px;
+  align-self: center;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+  color: #fff;
+  z-index: 3;
 }

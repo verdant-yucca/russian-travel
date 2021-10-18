@@ -1,9 +1,8 @@
-.place-website {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    text-decoration-line: underline;
-    color: #fff;
+.place__website {
+    height: 46px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: end;
     grid-area: place__website;
 }

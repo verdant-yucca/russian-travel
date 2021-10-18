@@ -1,5 +1,5 @@
 .lead__subtitle {
-  width: 640px;
+  width: 62.5%;
   margin: 32px 0 56px;
   align-self: center;
   color: #fff;
@@ -8,4 +8,25 @@
   text-align: center;
   font-size: 30px;
   line-height: 36px;
+}
+
+@media screen and (max-width: 500px) {
+  .lead__subtitle {
+    width: 90%;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 42px;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 830px) {
+  .lead__subtitle {
+    width: 83.3%;
+  }
+}
+
+@media screen and (min-width: 1130px){
+  .lead__subtitle {
+    width: 50%;
+  }
 }

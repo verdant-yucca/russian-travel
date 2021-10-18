@@ -1,27 +1,10 @@
 .cover {
-  max-width: 1184px;
   width: 100%;
-  min-height: 740px;
-  /*height: 62.5vw;*/
   margin: 92px 0;
   display: flex;
-  flex-direction: column;
-  background-image: url("../../images/cover_background.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-origin: content-box;
-  position: relative;
-
+  justify-content: center;
 }
 
 .cover:hover:before {
-  /* height: 100%; */
-  width: 100%;
-  content: '';
-  display: block;
   opacity: 0.5;
-  background-color: red;
-  position: absolute;
-  top: 0;
-  left: 0;
 }

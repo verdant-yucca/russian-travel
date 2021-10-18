@@ -1,6 +1,8 @@
 .header {
-  width: 928px;
-  height: 52px;
-  margin: 28px 0 48px;
+  min-width: 288px;
+  width: 91%;
+  max-width: 1184px;
+  min-height: 52px;
+  margin: 28px auto 48px;
   position: relative;
 }
