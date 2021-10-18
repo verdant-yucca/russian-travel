@@ -9,7 +9,6 @@
   background-image: url("../../../images/cover_background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-origin: content-box; */
   background-position: center;
   text-decoration: none;
   position: relative;
@@ -25,24 +24,24 @@
   content: "";
   display: block;
   position: absolute;
-  opacity: .8;
+  opacity: .3;
   transition: opacity 1s ease-in;
   z-index: -1;
 }
 
-/* .cover__link:hover::after {
-  opacity: 0.7;
-} */
+.cover__overlay:hover::after {
+  opacity: 0.8;
+}
 
 @media screen and (max-width: 1024px) {
-  .cover__background {
+  .cover__overlay {
       max-width: 1024px;
       min-height: 640px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .cover__background {
+  .cover__overlay {
       max-width: 768px;
       min-height: 480px;
   }
@@ -56,35 +55,35 @@
 }
 
 @media screen and (max-width: 540px) {
-  .cover__background {
+  .cover__overlay {
       max-width: 540px;
       min-height: 338px;
   }
 }
 
 @media screen and (max-width: 411px) {
-  .cover__background {
+  .cover__overlay {
       max-width: 411px;
       min-height: 257px;
   }
 }
 
 @media screen and (max-width: 375px) {
-  .cover__background {
+  .cover__overlay {
       max-width: 375px;
       min-height: 235px;
   }
 }
 
 @media screen and (max-width: 360px) {
-  .cover__background {
+  .cover__overlay {
       max-width: 360px;
       min-height: 225px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .cover__background {
+  .cover__overlay {
       max-width: 320px;
       min-height: 200px;
   }
