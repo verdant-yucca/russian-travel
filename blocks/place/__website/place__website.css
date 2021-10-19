@@ -6,3 +6,9 @@
     align-self: end;
     grid-area: place__website;
 }
+
+@media screen and (max-width: 500px) {
+	.place__website {
+    margin-left: 16px;
+	}
+}

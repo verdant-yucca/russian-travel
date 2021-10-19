@@ -1,8 +1,11 @@
 .place {
   margin-bottom: 80px;
   display: grid;
-  grid-template-columns: 440px 1fr;
+  /* grid-template-columns: 440px 1fr; */
+  grid-template-columns: 49.1% 50.9%;
   grid-template-rows: fit-content(160px) 440px;
+	justify-content: space-between;
+	align-content: space-between;
   gap: 48px 32px;
   grid-template-areas:
       "place__title place__website"
@@ -17,7 +20,8 @@
  @media screen and (max-width: 500px) {
   .place {
     margin-bottom: 51px;
-    grid-template-rows: repeat(2, fit-content(160px)) 440px 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, fit-content(160px)) 320px 1fr;
     row-gap: 32px;
     grid-template-areas:
       "place__title"
@@ -31,14 +35,14 @@
 @media screen and (min-width: 501px) and (max-width: 830px) {
   .place {
     margin-bottom: 73px;
-    grid-template-columns: 340px 1fr;
-    grid-template-rows: fit-content(140px) 340px;
+    grid-template-rows: fit-content(140px) 1fr;
     column-gap: 28px;
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1090px) {
   .place {
-    grid-template-columns: 460px 1fr;
+    grid-template-columns: 48.7% 51.3%;
+    gap: 48px 40px;
   }
 }

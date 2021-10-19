@@ -15,3 +15,9 @@
     width: 94%;
   }
 }
+
+@media screen and (min-width: 1140px) {
+	.places {
+		width: 77%;
+	}
+}

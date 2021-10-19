@@ -4,3 +4,14 @@
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 500px) {
+  .cover {
+    margin: 66px 0 64px;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 830px) {
+  .cover {
+    margin: 90px 0 88px;
+  }
+}

@@ -7,3 +7,15 @@
     color: #fff;
     grid-area:  place__paragraph;
 }
+
+@media screen and (max-width: 500px) {
+	.place__paragraph {
+    margin-left: 16px;
+	}
+}
+
+@media screen and (max-width: 830px) {
+	.place__paragraph {
+		font-size: 16px;
+	}
+}
