@@ -1,5 +1,5 @@
 .lead__title {
-  width: 70.3125%;
+  width: 720px;
   margin: 0;
   align-self: center;
   font-style: normal;
@@ -10,23 +10,10 @@
   color: #fff;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 425px) {
   .lead__title {
     width: 90%;
     font-size: 40px;
     line-height: 44px;
-    margin-bottom: 13px;
-  }
-}
-
-@media screen and (min-width: 701px) and (max-width: 830px) {
-  .lead__title {
-    width: 93.75%;
-  }
-}
-
-@media screen and (min-width: 1130px) {
-  .lead__title {
-    width: 56.25%;
   }
 }

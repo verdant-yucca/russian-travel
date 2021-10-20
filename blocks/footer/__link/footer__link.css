@@ -12,16 +12,16 @@
 	opacity: 0.8;
 }
 
-@media screen and (max-width: 900px) {
-	.footer__link {
-		margin-right: 19px;
-	}
-}
-
 @media screen and (max-width: 700px) {
 	.footer__link {
 		font-size: 24px;
 		line-height: 24px;
 		margin: 0 0 32px 0;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.footer__link {
+		margin-right: 19px;
 	}
 }

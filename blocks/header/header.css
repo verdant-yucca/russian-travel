@@ -1,8 +1,29 @@
 .header {
   min-width: 288px;
-  width: 91%;
+  width: 90.625%;
   max-width: 1184px;
   min-height: 52px;
   margin: 28px auto 48px;
   position: relative;
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    width: 90%;
+    min-height: 42px;
+    margin-top: 16px
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 900px) {
+  .header {
+    width: 93.75%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header {
+    width: 92.5%;
+    margin-bottom: 56px;
+  }
 }

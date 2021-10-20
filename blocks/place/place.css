@@ -1,7 +1,6 @@
 .place {
   margin-bottom: 80px;
   display: grid;
-  /* grid-template-columns: 440px 1fr; */
   grid-template-columns: 49.1% 50.9%;
   grid-template-rows: fit-content(160px) 440px;
 	justify-content: space-between;
@@ -17,9 +16,9 @@
   margin: 0;
 }
 
- @media screen and (max-width: 500px) {
+ @media screen and (max-width: 425px) {
   .place {
-    margin-bottom: 51px;
+    margin-bottom: 50px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, fit-content(160px)) 320px 1fr;
     row-gap: 32px;
@@ -32,7 +31,7 @@
   }
 }
 
-@media screen and (min-width: 501px) and (max-width: 830px) {
+@media screen and (min-width: 426px) and (max-width: 900px) {
   .place {
     margin-bottom: 73px;
     grid-template-rows: fit-content(140px) 1fr;
@@ -40,7 +39,7 @@
   }
 }
 
-@media screen and (min-width: 1090px) {
+@media screen and (min-width: 1280px) {
   .place {
     grid-template-columns: 48.7% 51.3%;
     gap: 48px 40px;

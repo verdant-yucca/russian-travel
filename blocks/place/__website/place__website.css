@@ -7,7 +7,7 @@
     grid-area: place__website;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 425px) {
 	.place__website {
     margin-left: 16px;
 	}

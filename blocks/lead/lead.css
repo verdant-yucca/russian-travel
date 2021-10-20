@@ -1,18 +1,26 @@
 .lead {
-  width: 91%;
+  width: 90.625%;
   margin: 0 0 92px;
   display: flex;
   flex-direction: column;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 425px) {
   .lead {
     width: 100%;
+    margin-bottom: 64px;
   }
 }
 
-/* @media screen and (min-width: 1150px) {
+@media screen and (min-width: 426px) and (max-width: 900px) {
+  .lead {
+    width: 100%;
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
   .lead {
     width: 76.875%;
   }
-} */
+}

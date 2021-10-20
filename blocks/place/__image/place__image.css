@@ -4,3 +4,10 @@
     object-position: center;
     grid-area: place__image;
 }
+
+@media screen and (max-width: 425px) {
+  .place__image {
+    width: 320px;
+    margin: auto;
+  }
+}
