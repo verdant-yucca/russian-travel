@@ -18,5 +18,5 @@
 
 В корне лежит файл .editorconfig с настройками для текстового редактора, а также .notjekill, для чтения файлов, имя которых начинается с нижнего подчёркивания _. 
 
-Ссылка проекта на GitHub - https://github.com/verdant-yucca/russian-travel
+Ссылка проекта на GitHub - https://github.com/verdant-yucca/russian-travel <br>
 Ссылка проекта на GitHub Pages - https://verdant-yucca.github.io/russian-travel/index.html 
