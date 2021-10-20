@@ -35,8 +35,8 @@
 
 /* section photo-grid */
 
-@import url(../blocks/prhoto-grid/photo-grid.css);
-@import url(../blocks/prhoto-grid/__item/photo-grid__item.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
 /* ul places */
 
