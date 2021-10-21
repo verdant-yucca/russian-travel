@@ -1,8 +1,8 @@
 .place {
   margin-bottom: 80px;
   display: grid;
-  grid-template-columns: 49.1% 50.9%;
-  grid-template-rows: fit-content(160px) 440px;
+  grid-template-columns: 49.1fr 50.9fr;
+  grid-template-rows: fit-content(160px) fit-content(440px);
 	justify-content: space-between;
 	align-content: space-between;
   gap: 48px 32px;
@@ -19,7 +19,7 @@
   .place {
     margin-bottom: 50px;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, fit-content(160px)) 320px 1fr;
+    grid-template-rows: repeat(2, fit-content(160px)) fit-content(320px) 1fr;
     row-gap: 32px;
     grid-template-areas:
       "place__title"
@@ -39,7 +39,7 @@
 
 @media screen and (min-width: 1280px) {
   .place {
-    grid-template-columns: 48.7% 51.3%;
+    grid-template-columns: 48.7fr 51.3fr;
     gap: 48px 40px;
   }
 }
