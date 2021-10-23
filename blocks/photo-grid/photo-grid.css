@@ -8,16 +8,15 @@
   justify-items: center;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 1140px) {
   .photo-grid {
-    width: 90%;
-    margin: 64px auto;
-    grid-template-columns: 1fr;
-    gap: 12px;
+    width: 92.5%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 900px) {
+@media screen and (max-width: 900px) {
   .photo-grid {
     width: 93.75%;
     margin: 88px auto;
@@ -26,10 +25,11 @@
   }
 }
 
-@media screen and (min-width: 1140px) {
+@media screen and (max-width: 425px) {
   .photo-grid {
-    width: 92.5%;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
+    width: 90%;
+    margin: 64px auto;
+    grid-template-columns: 1fr;
+    gap: 12px;
   }
 }

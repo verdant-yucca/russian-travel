@@ -14,6 +14,7 @@
   position: relative;
   z-index: 1;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .cover__overlay::after {
@@ -32,20 +33,20 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 1184px) {
   .cover__overlay {
-    min-height: 200px;
+    min-height: 740px;
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 900px) {
+@media screen and (max-width: 900px) {
   .cover__overlay {
     min-height: 480px;
   }
 }
 
-@media screen and (min-width: 1184px) {
+@media screen and (max-width: 425px) {
   .cover__overlay {
-    min-height: 740px;
+    min-height: 200px;
   }
 }

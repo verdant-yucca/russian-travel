@@ -5,22 +5,21 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 1280px) {
   .lead {
-    width: 100%;
-    margin-bottom: 64px;
+    width: 76.875%;
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 900px) {
+@media screen and (max-width: 900px) {
   .lead {
     width: 100%;
     margin-bottom: 88px;
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 725px) {
   .lead {
-    width: 76.875%;
+    margin-bottom: 64px;
   }
 }

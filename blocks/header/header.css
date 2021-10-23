@@ -7,23 +7,23 @@
   position: relative;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 1280px) {
   .header {
-    width: 90%;
-    min-height: 42px;
-    margin-top: 16px;
+    width: 92.5%;
+    margin-bottom: 56px;
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 900px) {
+@media screen and (max-width: 900px) {
   .header {
     width: 93.75%;
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 425px) {
   .header {
-    width: 92.5%;
-    margin-bottom: 56px;
+    width: 90%;
+    min-height: 42px;
+    margin-top: 16px;
   }
 }

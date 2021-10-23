@@ -5,20 +5,20 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 1280px) {
   .cover {
-    margin: 66px 0 64px;
+    width: 1184px;
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 900px) {
+@media screen and (max-width: 900px) {
   .cover {
     margin: 90px 0 88px;
   }
 }
 
-@media screen and (min-width: 1184px) {
+@media screen and (max-width: 725px) {
   .cover {
-    width: 1184px;
+    margin: 66px 0 64px;
   }
 }
