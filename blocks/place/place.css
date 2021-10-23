@@ -3,12 +3,12 @@
   display: grid;
   grid-template-columns: 49.1fr 50.9fr;
   grid-template-rows: fit-content(160px) fit-content(440px);
-	justify-content: space-between;
-	align-content: space-between;
+  justify-content: space-between;
+  align-content: space-between;
   gap: 48px 32px;
   grid-template-areas:
-      "place__title place__website"
-      "place__image place__paragraph";
+    "place__title place__website"
+    "place__image place__paragraph";
 }
 
 .place:last-of-type {
@@ -43,3 +43,4 @@
     gap: 48px 40px;
   }
 }
+

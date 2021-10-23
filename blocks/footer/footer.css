@@ -6,22 +6,23 @@
 }
 
 @media screen and (max-width: 700px) {
-	.footer {
-		flex-direction: column;
-		width: 58.125%;
-		margin-left: 5%;
+  .footer {
+    flex-direction: column;
+    min-width: 58.125%;
+    max-width: 90%;
+    margin-left: 5%;
     align-self: start;
-	}
+  }
 }
 
 @media screen and (min-width: 700px) and (max-width: 900px) {
-	.footer {
-		width: 93.75%;
-	}
+  .footer {
+    width: 93.75%;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-	.footer {
-		width: 92.5%;
-	}
+  .footer {
+    width: 92.5%;
+  }
 }
